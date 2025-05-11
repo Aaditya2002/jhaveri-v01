@@ -35,7 +35,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-navy/50 z-10"></div>
         <video ref={videoRef} className="object-cover w-full h-full" autoPlay muted loop playsInline>
-          <source src="https://download-video-ak.vimeocdn.com/v3-1/playback/456fd4b9-0269-48c7-ac68-2e88658d190d/fa0416f4-acb8ca73?__token__=st=1746902830~exp=1746917230~acl=%2Fv3-1%2Fplayback%2F456fd4b9-0269-48c7-ac68-2e88658d190d%2Ffa0416f4-acb8ca73%2A~hmac=8db6f4011d3f0dc83cf8695f88ed07396d9ddac5e48b53b152f59b2a4aba1aeb&r=dXMtd2VzdDE%3D" type="video/mp4" />
+          <source src="https://player.vimeo.com/progressive_redirect/playback/769653111/rendition/1080p/file.mp4?loc=external&signature=ed68edc6f93d6322ab788f73a6c328d62ef27555627cc8b2c6a85fdaf8e4c696" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
